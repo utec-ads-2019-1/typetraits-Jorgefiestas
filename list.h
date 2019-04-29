@@ -67,6 +67,7 @@ class List {
         }
 
         ~List() {
+		// Falta validar que head no sea null cuando una lista es vacía
 			head->killSelf();
         }         
 };
